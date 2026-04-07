@@ -1,7 +1,11 @@
-/*
-    Изменить элементу цвет и ширину можно вот так:
+const openBtn = document.getElementById('openBtn');
+const overlay = document.getElementById('overlay');
+const closeBtn = document.getElementById('closeBtn');
 
-    const element = document.querySelector('.myElement');
-    element.style.color = 'red';
-    element.style.width = '300px';
-*/
+openBtn.addEventListener('click', () => {
+    overlay.style.display = 'flex';
+});
+
+closeBtn.addEventListener('click', () => {
+    overlay.style.display = 'none';
+});

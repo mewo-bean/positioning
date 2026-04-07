@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <div class="logo mitsubishi">
         <div class="diamond top"></div>
         <div class="diamond left"></div>
@@ -20,5 +19,43 @@
         <div class="ms-square ms-br"></div>
     </div>
 
+    <title>Модальное окно</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <button class="open-button" id="openBtn">Открыть модальное окно</button>
+
+    <div class="overlay" id="overlay">
+        <div class="modal">
+            <button class="close-button" id="closeBtn">✝</button>
+            
+            <h2>Это модальное окно</h2>
+
+            <div>
+                <input type="checkbox" id="acc1">
+                <label for="acc1"></label>
+                <div class="accordion">
+                    <p>Never gonna give you up</p>
+                </accordion>
+            </div>
+
+            <div>
+                <input type="checkbox" id="acc2">
+                <label for="acc2"></label>
+                <div class="accordion">
+                    <p>Never gonna let you down</p>
+                </accordion>
+            </div>
+
+            <div>
+                <input type="checkbox" id="acc3">
+                <label for="acc3"></label>
+                <div class="accordion">
+                    <p>Never gonna run around and desert you</p>
+                </accordion>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
