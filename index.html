@@ -19,16 +19,26 @@
         <div class="ms-square ms-br"></div>
     </div>
 
-    <title>Модальное окно</title>
     <link rel="stylesheet" href="styles.css">
+
+
+    <div>
+        <button class="open-button" id="openBtn">Открыть модальное окно</button>
+    </div>
     
-    <button class="open-button" id="openBtn">Открыть модальное окно</button>
 
     <div class="overlay" id="overlay">
         <div class="modal">
             <button class="close-button" id="closeBtn">✝</button>
             
             <h2>Это модальное окно</h2>
+
+            <div class="progress-container">
+                <div class="progress-fill" id="progressFill">
+                    <span class="progress-fill-text">Loading...</span>
+                </div>
+                <span class="progress-text">Loading...</span>
+            </div>
 
             <div>
                 <input type="checkbox" id="acc1">
