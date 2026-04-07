@@ -1,0 +1,72 @@
+.logo {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background: white;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+
+
+/* --- 1. MITSUBISHI --- */
+.mitsubishi .diamond {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: black;
+    transform-origin: 100% 100%;
+}
+
+.mitsubishi .top {
+    top: 31px;
+    left: 20px;
+    transform: rotate(45deg) skew(15deg, 15deg);
+}
+
+.mitsubishi .left {
+    top: 34px;
+    left: 18px;
+    transform: rotate(-75deg) skew(15deg, 15deg);
+}
+
+.mitsubishi .right {
+    top: 34px;
+    left: 22px;
+    transform: rotate(165deg) skew(15deg, 15deg);
+}
+
+
+/* --- 2. MICROSOFT --- */
+.microsoft .ms-square {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+}
+
+
+.microsoft .ms-tl {
+    top: 26px;
+    left: 26px;
+    background: #f1511b;
+}
+
+.microsoft .ms-tr {
+    top: 26px;
+    right: 26px;
+    background: #80cc28;
+}
+
+.microsoft .ms-bl {
+    bottom: 26px;
+    left: 26px;
+    background: #00adef;
+}
+
+.microsoft .ms-br {
+    bottom: 26px;
+    right: 26px;
+    background: #fbbc09;
+}
+
